@@ -3,7 +3,29 @@
 <title>DATOS ALUMNO</title>
   
   <h1>INTRODUCE LOS SIUIENTES DATOS</h1>
-</head>
+
+<script type="text/javascript">
+	function obtenerdatos()
+	{
+		var boleta = document.getElementById('boleta').value;
+      var nombre = document.getElementById('nombre').value;
+		var grupo = document.getElementById('grupo').value;
+      var materia = document.getElementById('materia').value;
+      var fecha = document.getElementById('fecha').value;
+
+		
+		document.registro.boletaobtenido.value = boleta;
+      document.registro.nombreobtenido.value = nombre;
+		document.registro.grupoobtenido.value = grupo;
+      document.registro.materiaobtenido.value = materia;
+      document.registro.fechaobtenido.value = fecha;
+
+	}
+</script>
+	
+	
+	
+	</head>
 <body>
 <form name="registro">
 <table border="1">
